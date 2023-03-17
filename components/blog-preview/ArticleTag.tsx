@@ -7,7 +7,8 @@ interface ArticleTagProps {
 const tagBaseStyle = "text-xs mr-2 py-1.5 px-4 text-black-600 rounded-2xl";
 
 const textsStyles: any = {
-  ReactJS: `${tagBaseStyle} bg-sky-100  text-sky-600`,
+
+  Kitchen | Accessories: `${tagBaseStyle} bg-sky-100  text-sky-600`,
   NodeJS: `${tagBaseStyle} bg-green-100  text-green-600`,
   AWS: `${tagBaseStyle} bg-yellow-100  text-yellow-600`,
   NextJS: `${tagBaseStyle}  bg-cyan-100  text-cyan-600`,
