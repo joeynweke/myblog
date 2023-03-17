@@ -15,6 +15,20 @@ const customLoader = ({ src }: any) => {
   return src;
 };
 
+export const Image = () => {
+  return(
+      <Image
+          loader={customLoader}
+          objectFit="cover"
+          width={100%}
+          height={100%}
+          src={`${prefix}${imageUrl}`}
+          alt="This is the preview image of the blog"
+          className="rounded-t-md"
+        />
+)
+};
+
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH
   ? `${process.env.NEXT_PUBLIC_BASE_PATH}/`
   : "";
