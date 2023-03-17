@@ -15,7 +15,7 @@ const textsStyles: any = {
   Culinary: `${tagBaseStyle}  bg-sky-100  text-sky-600`,
   Utensils: `${tagBaseStyle}  bg-indigo-100  text-indigo-600`,
   Food: `${tagBaseStyle}  bg-violet-100  text-violet-600`,
-  Baking: `${tagBaseStyle}  bg-rose-100  text-rose-600`,
+  Gadget: `${tagBaseStyle}  bg-rose-100  text-rose-600`,
   Essentials: `${tagBaseStyle}  bg-lime-100  text-lime-600`,
 };
 export default function ArticleTag({ title }: ArticleTagProps) {
