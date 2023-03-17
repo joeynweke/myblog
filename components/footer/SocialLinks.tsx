@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithubSquare, FaMedium, FaStackOverflow, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const SocialLinks = () => {
   const ICON_SIZE = 24;
