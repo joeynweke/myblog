@@ -5,7 +5,7 @@ import NavItem from "./NavItem";
 import { useTheme } from "next-themes";
 import { FaRegMoon, FaSun } from "react-icons/fa";
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
-
+Const siteName = process.env.NEXT_PUBLIC_OWNER_NAME;
 function Header() {
   const { theme, setTheme } = useTheme();
   const customLoader = ({ src }: any) => {
@@ -25,7 +25,7 @@ function Header() {
               className="cursor-pointer"
             />
             <span className="ml-3 text-lg xl:text-2xl md:text-xxl hidden md:block cursor-pointer dark:text-white">
-              {process.env.NEXT_PUBLIC_OWNER_NAME}
+              {siteName}
             </span>
           </div>
         </Link>
