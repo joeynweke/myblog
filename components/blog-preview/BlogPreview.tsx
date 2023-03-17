@@ -27,8 +27,8 @@ function BlogPreview(props: BlogPreviewProps) {
         <Image
           loader={customLoader}
           objectFit="cover"
-          width={400}
-          height={200}
+          width={100%}
+          height={100%}
           src={`${prefix}${imageUrl}`}
           alt="This is the preview image of the blog"
           className="rounded-t-md"
