@@ -1,4 +1,4 @@
-function EmailSubscriptionPopup() {
+function EmailSubscriptionPopUp() {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
