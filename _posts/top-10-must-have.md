@@ -8,7 +8,7 @@ date: 5 January 2022
 
 # Top 10 Must Have Kitchen Gadgets For Home Cooks
 
-![alt text](https://github.com/joeynweke/myblog/blob/master/public/static/BDA91CCF-EFB6-4A4E-8294-C064F3BB7EA6.webp?raw=true)
+![home kitchen gadgets](https://github.com/joeynweke/myblog/blob/master/public/static/BDA91CCF-EFB6-4A4E-8294-C064F3BB7EA6.webp?raw=true)
 
 ## Are you a home cook looking to upgrade your kitchen game? Look no further than this list of the top 10 must-have kitchen gadgets for home cooks
 
