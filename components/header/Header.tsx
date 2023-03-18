@@ -27,6 +27,7 @@ function Header() {
             <span className="ml-3 text-lg xl:text-2xl md:text-xxl hidden md:block cursor-pointer dark:text-white">
               {siteName}
             </span>
+<div>SavvyKitchenTools</div>
           </div>
         </Link>
         <nav className="flex gap-4 items-center">
