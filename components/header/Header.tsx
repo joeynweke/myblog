@@ -23,7 +23,7 @@ function Header() {
               width="30"
               className="cursor-pointer"
             />
-            <span className="ml-3 text-lg xl:text-2xl md:text-xxl hidden md:block cursor-pointer dark:text-white">
+            <span className="ml-3 text-lg xl:text-2xl md:text-xxl md:block cursor-pointer dark:text-white">
               {process.env.NEXT_PUBLIC_OWNER_NAME}
             </span>
           </div>
