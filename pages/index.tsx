@@ -2,7 +2,6 @@ import { NextSeo } from "next-seo";
 import { TypeBlogDetails } from "../types/TypeBlogDetails";
 import { getAllPosts } from "../lib/blog-api";
 import BlogPreview from "../components/blog-preview/BlogPreview";
-import EmailPopup from "../components/blog-preview/EmailPopup"
 
 export const getStaticProps = async () => {
   const postList: TypeBlogDetails[] = getAllPosts();
@@ -52,7 +51,6 @@ const Home = ({ posts }: Props) => {
       />
 
       <div className="flex flex-wrap p-5 gap-5 justify-evenly">
-        <EmailPopup />
         {posts.map((blogItem: TypeBlogDetails) => (
           <BlogPreview
             key={blogItem.slug}
