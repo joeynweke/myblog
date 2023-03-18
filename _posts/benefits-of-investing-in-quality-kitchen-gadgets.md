@@ -36,12 +36,16 @@ Lastly, investing in high-quality kitchen gadgets can make cooking more enjoyabl
 
 ### 1. Instant Pot
  - a versatile electric pressure cooker that can cook everything from rice and soups to stews and desserts.
+
 ### 2. Vitamix Blender
  - a high-performance blender that can blend, puree, and chop ingredients in seconds.
+
 ### 3. KitchenAid Stand Mixer 
 - a versatile mixer that can be used for baking, making pasta, and even grinding meat.
+
 ### 4. Anova Sous Vide Machine 
 - a precision cooking machine that can cook meat and vegetables to the perfect temperature.
+
 ### 5. All-Clad Stainless Steel Cookware 
 - a durable and high-quality set of pots and pans that can last for years.
 
