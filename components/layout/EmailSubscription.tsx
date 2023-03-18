@@ -1,93 +1,72 @@
-function EmailSubscriptionPopUp() {
-  const [showPopup, setShowPopup] = useState(false);
+import { useState } from "react";
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowPopup(true);
-    }, 20000);
-    
-    return () => clearTimeout(timer);
-  }, []);
-  
+interface Props {
+  onClose: () => void;
+}
+
+const EmailSubscriptionPopUp: React.FC<Props> = ({ onClose }) => {
+  const [email, setEmail] = useState("");
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    // Handle form submission here
+    console.log(`Submitted email: ${email}`);
+    onClose();
+  };
+
   return (
-    <>
-      {showPopup && (
-        <div className="popup">
-          <h2>Subscribe to our newsletter</h2>
-          <form>
-            <label htmlFor="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-            <button type="submit">Subscribe</button>
-          </form>
-          <button onClick={() => setShowPopup(false)}>Close</button>
+    <div className="fixed z-10 inset-0 overflow-y-auto">
+      <div className="flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+        <div className="fixed inset-0 transition-opacity" aria-hidden="true">
+          <div className="absolute inset-0 bg-gray-500 opacity-75"></div>
         </div>
-      )}
-      <style jsx>{`
-        .popup {
-          position: fixed;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          background-color: #fff;
-          padding: 20px;
-          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-        }
-        
-        h2 {
-          margin-top: 0;
-        }
-        
-        form {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-        
-        label {
-          margin-bottom: 10px;
-        }
-        
-        input {
-          padding: 10px;
-          margin-bottom: 10px;
-          border-radius: 5px;
-          border: 1px solid #ccc;
-          width: 100%;
-          max-width: 300px;
-        }
-        
-        button[type="submit"], button {
-          padding: 10px;
-          border-radius: 5px;
-          border: none;
-          background-color: #4CAF50;
-          color: #fff;
-          cursor: pointer;
-          width: 100%;
-          max-width: 300px;
-        
-       }
 
-           button[type="submit"]:hover, button:hover {
-      background-color: #3e8e41;
-    }
-    
-    button[type="submit"]:active, button:active {
-      background-color: #3e8e41;
-      transform: translateY(1px);
-    }
-    
-    button[type="submit"]:focus, button:focus {
-      outline: none;
-    }
-    
-    button {
-      margin-top: 10px;
-      background-color: transparent;
-      border: none;
-      cursor: pointer;
-    }
-  `}</style>
-</>
+        <span className="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">
+          &#8203;
+        </span>
+
+        <div
+          className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="modal-headline"
+        >
+          <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+            <button
+              className="absolute top-0 right-0 p-2 m-2 rounded-full text-gray-500 hover:text-gray-900 focus:outline-none"
+              onClick={onClose}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+            <h2 className="text-lg leading-6 font-medium text-gray-900 mb-2" id="modal-headline">
+              Subscribe to our newsletter
+            </h2>
+            <p className="text-sm text-gray-500 mb-4">
+              Stay up-to-date with our latest news and promotions!
+            </p>
+            <form onSubmit={handleSubmit}>
+              <div className="mt-1 relative rounded-md shadow-sm">
+                <input
+                  type="email"
+                  id="email-input"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                  className="focus:ring-indigo-500 focus:border-indigo-500 block w-full pr-10 sm:text-sm border-gray-300 rounded-md"
+                  placeholder="Enter your email address"
+                />
+                <button type="submit" className="absolute top-0 right-0 mt-1 mr-1 inline-flex items-center px-3 py-1 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default EmailSubscriptionPopUp;
