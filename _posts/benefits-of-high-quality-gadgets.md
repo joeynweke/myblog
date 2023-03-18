@@ -1,10 +1,10 @@
 
 ---
-title: "The Benefits Of Investing In High Quality  Kitchen Gadgets"
-description: "This blog highlights the advantages of investing in high quality kitchen gadgets, such as saving time and money while improving cooking experience. We'll provide recommendations and tips for choosing the right gadgets."
-banner: "/static/B96A5AE8-B261-475B-AAC9-A12FF5CE321F.jpeg"
-tags: ["Gadget", "Kitchen", "Essentials"]
-date: 9 January 2022
+title: "Top 10 Must Have Kitchen Gadgets For Home Cooks"
+description: "Are you a home cook looking to upgrade your kitchen game? Look no further than this list of the top 10 must-have kitchen gadgets for home cooks"
+banner: "/static/BDA91CCF-EFB6-4A4E-8294-C064F3BB7EA6.webp"
+tags: ["Kitchen", "Essentials"]
+date: 5 January 2022
 ---
 
 # The Benefits Of Investing In High Quality  Kitchen Gadgets
