@@ -13,7 +13,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <ThemeProvider attribute="class">
         <Layout pageTitle={`Blog | ${process.env.NEXT_PUBLIC_OWNER_NAME}`}>
           <Component {...pageProps} />
-          <EmailSubscriptionPopUp />
         </Layout>
       </ThemeProvider>
     </>
