@@ -8,7 +8,7 @@ date: 10 January 2022
 
 # The Benefits Of Investing In High Quality Kitchen Gadgets
 
-![alt text](https://github.com/joeynweke/myblog/blob/master/public/static/B96A5AE8-B261-475B-AAC9-A12FF5CE321F.jpeg?raw=true)
+![high quality blender](https://github.com/joeynweke/myblog/blob/master/public/static/B96A5AE8-B261-475B-AAC9-A12FF5CE321F.jpeg?raw=true)
 
 ## This blog highlights the advantages of investing in high quality kitchen gadgets, such as saving time and money while improving cooking experience. We'll provide recommendations and tips for choosing the right gadgets.
 
