@@ -8,7 +8,7 @@ date: 7 January 2022
 
 # How to Choose the Best Specialty Kitchen Gadgets for Your Needs
 
-![alt text](https://github.com/joeynweke/myblog/blob/master/public/static/DF85FBAC-448A-4116-8D59-E5D83F10F2C7.jpeg?raw=true)
+![kitchen tools and gadgets](https://github.com/joeynweke/myblog/blob/master/public/static/DF85FBAC-448A-4116-8D59-E5D83F10F2C7.jpeg?raw=true)
 
 ## Specialty kitchen gadgets can make cooking easier and more efficient, but with so many options available, it can be challenging to know which ones to invest in. This blog post provides tips on how to choose the best specialty kitchen gadgets for your needs, including identifying your cooking style, considering the types of meals you prepare, looking for multi-functional gadgets, considering quality and durability, and doing your research before making a purchase. By following these tips, you can make smart decisions and enhance your cooking experience in the kitchen.
 
